@@ -1,4 +1,4 @@
-# kded: kernel density estimation via diffusion, in any dimension
+# kded: A python package for kernel density estimation via diffusion in any dimension
 
 [![PyPI](https://img.shields.io/pypi/v/kded.svg)](https://pypi.org/project/kded/)
 [![Python](https://img.shields.io/pypi/pyversions/kded.svg)](https://pypi.org/project/kded/)
