@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use kded, please cite the paper below and Botev, Grotowski and Kroese (2010)."
+title: "kded: kernel density estimation via diffusion in any dimension"
+version: 0.3.0
+date-released: 2026-11-06
+license: MIT
+repository-code: "https://github.com/trungnth/kded"
+authors:
+  - given-names: Trung
+    family-names: Nguyen
+    affiliation: "Dalat Nuclear Research Institute"
+    email: trungnth@gmail.com
+preferred-citation:
+  type: unpublished
+  title: "kded: An extension of kernel density estimation via diffusion for multivariate data"
+  authors:
+    - given-names: Trung
+      family-names: Nguyen
+      affiliation: "Dalat Nuclear Research Institute"
+  year: 2026
+references:
+  - type: article
+    title: "Kernel density estimation via diffusion"
+    authors:
+      - family-names: Botev
+        given-names: Z. I.
+      - family-names: Grotowski
+        given-names: J. F.
+      - family-names: Kroese
+        given-names: D. P.
+    journal: "The Annals of Statistics"
+    volume: 38
+    issue: 5
+    start: 2916
+    end: 2957
+    year: 2010
+    doi: "10.1214/10-AOS799"

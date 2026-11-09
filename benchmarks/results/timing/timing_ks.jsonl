@@ -1,0 +1,12 @@
+{"method": "ks_hpi", "d": 1, "N": 1000, "status": "ok", "time": 0.002, "times": [0.008, 0.002, 0.002]} 
+{"method": "ks_hpi", "d": 1, "N": 10000, "status": "ok", "time": 0.004, "times": [0.004, 0.004, 0.004]} 
+{"method": "ks_hpi", "d": 1, "N": 100000, "status": "ok", "time": 0.024, "times": [0.031, 0.022, 0.024]} 
+{"method": "ks_hpi", "d": 1, "N": 1000000, "status": "ok", "time": 0.386, "times": [0.512, 0.386, 0.343]} 
+{"method": "ks_hpi", "d": 2, "N": 1000, "status": "ok", "time": 0.849, "times": [1.271, 0.774, 0.849]} 
+{"method": "ks_hpi", "d": 2, "N": 10000, "status": "ok", "time": 0.722, "times": [0.722, 0.617, 0.745]} 
+{"method": "ks_hpi", "d": 2, "N": 100000, "status": "ok", "time": 0.261, "times": [0.252, 0.261, 0.293]} 
+{"method": "ks_hpi", "d": 2, "N": 1000000, "status": "ok", "time": 0.912, "times": [0.851, 0.912, 1.010]} 
+{"method": "ks_hpi", "d": 3, "N": 1000, "status": "ok", "time": 6.25, "times": [6.250, 6.054, 6.358]} 
+{"method": "ks_hpi", "d": 3, "N": 10000, "status": "ok", "time": 4.043, "times": [4.714, 4.043, 3.819]} 
+{"method": "ks_hpi", "d": 3, "N": 100000, "status": "ok", "time": 3.757, "times": [3.757, 3.594, 3.801]} 
+{"method": "ks_hpi", "d": 3, "N": 1000000, "status": "ok", "time": 4.75, "times": [5.010, 4.492, 4.750]} 

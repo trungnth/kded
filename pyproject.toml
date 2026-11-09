@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kded"
+version = "0.3.0"
+description = "Kernel density estimation via diffusion (Botev et al. 2010) for data in any dimension"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Trung Nguyen", email = "trungnth@gmail.com" }]
+keywords = ["kernel density estimation", "KDE", "bandwidth selection", "diffusion",
+            "improved Sheather-Jones", "ISJ", "multivariate", "3D", "statistics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ["numpy>=1.21", "scipy>=1.7"]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+test = ["pytest"]
+benchmark = ["matplotlib", "scikit-learn", "statsmodels", "KDEpy", "pandas"]
+
+[project.urls]
+Homepage = "https://github.com/trungnth/kded"
+Source = "https://github.com/trungnth/kded"
+Issues = "https://github.com/trungnth/kded/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
